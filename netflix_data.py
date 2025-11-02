@@ -11,7 +11,11 @@ movie_count = movie.groupby('release_year').count()
 tv_show_count = tv_show.groupby('release_year').count()
 
 # Ваши задания для практики:
+
 # 1. Посмотрите на данные: df.head(), df.info(), df.describe()
+first_five = df.head(5)
+print(first_five)
+
 # 2. Посчитайте сколько фильмов и сериалов
 # 3. Найдите топ-5 лет по количеству фильмов
 # 4. Проанализируйте рейтинги
