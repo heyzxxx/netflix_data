@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Виртуальное окружение
+venv/
+env/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Данные (опционально - можно добавить в репозиторий)
+# *.csv
+
+# Графики (можно добавить, но обычно не коммитят)
+*.png
+*.jpg
+*.jpeg
+
+# Логи
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
